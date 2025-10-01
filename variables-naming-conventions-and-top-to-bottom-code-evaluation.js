@@ -25,8 +25,18 @@ Things to reflect on:
 */
 
 let a = "Alice";
+Correction: a is too vague. Instead, it can read let name = "Alice";
 let b = 5;
+Correction: b is too vague. Instead, it can read let numberOfItems = 5;
 let c = 20;
+Correction: c is too vague. Instead, it can read let costOfItems = 20;
 let d = a + " bought " + b + " items for $" + c + ".";
+Correction: d is too vague. Instead, it can read let aliceSpendingRecord = a + " bought " + b + " items for $" + c + ".";
 
-console.log(d);
+Addition 1: let nameOfStore = "Walmart";
+Addition 2: let timeOfDay = "noon";
+
+Rewritten program: 
+let fullSentence = name + " bought " + numberOfItems + " items for $" + costOfItems + "at" + nameOfStore + "at" + timeOfDay + ".";
+
+console.log(aliceSpendingRecord);
